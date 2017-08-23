@@ -18,15 +18,15 @@
   "homepage": "https://github.com/rollup/rollup-plugin-typescript",
   "author": "Oskar Segersvärd",
   "scripts": {
-    "prebuild": "rimraf dist/*",
+    "prebuild-1": "rimraf dist/*",
     "build": "rollup -c",
     "lint": "eslint src test/*.js",
     "pretest": "npm run build",
     "test": "mocha --compilers js:buble/register",
-    "postinstall": "npm run build",
+    "postinstall-1": "npm run build",
     "posttest": "npm run lint",
-    "prepare": "npm run build",
-    "prepublish": "npm run test"
+    "prepare-1": "npm run build",
+    "prepublish-1": "npm run test"
   },
   "dependencies": {
     "compare-versions": "3.0.1",

@@ -10,7 +10,7 @@ Seamless integration between Rollup and Typescript.
 
 更新 dependencies 到目前最新，来源：[Update dependencies by mariuslundgard · Pull Request #93 · rollup/rollup-plugin-typescript](https://github.com/rollup/rollup-plugin-typescript/pull/93)
 
-- 因为他没有上传 dist，无法直接 npm install
+- 他的无法直接 npm install
 
 ## Why?
 See [rollup-plugin-babel](https://github.com/rollup/rollup-plugin-babel).
